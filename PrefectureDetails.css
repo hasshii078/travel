@@ -1,0 +1,77 @@
+.prefecture-details-container {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-container input,
+  .input-container select {
+    padding: 8px;
+    font-size: 14px;
+  }
+  
+  .add-button {
+    padding: 8px 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .categories-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .category-box {
+    width: 30%;
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .category-box h3 {
+    text-align: center;
+  }
+  
+  .places-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .place-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    background: white;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  .place-image {
+    width: 100%;
+    max-height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .delete-button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+  }
+  

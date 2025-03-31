@@ -1,0 +1,28 @@
+.places-list-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .prefecture-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .prefecture-item {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    transition: background-color 0.2s;
+  }
+  
+  .prefecture-item:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
